@@ -20,8 +20,8 @@
     position: fixed;
 } */
 .border{
-    background-image: url(../FitnessIn/img/1.jpg);
-    height: 680px;
+    background-image: url(./img/banner.jpg);
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,6 +350,19 @@ h4{
     .gallery{
         width: 100%;
     }
+    
+}
+@media (min-width:576) {
+    .container{
+        width: 520px;
+    }
+    .col-25 {
+        width:50%;
+      }
+      .col-50 {
+          width: 100%;
+        }
+
     
 }
 @media (min-width:768px) {
